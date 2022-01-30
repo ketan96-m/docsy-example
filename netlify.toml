@@ -1,3 +1,4 @@
 [build]
 [build.environment]
 HUGO_VERSION = "0.92.1"
+command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo --gc --minify"
